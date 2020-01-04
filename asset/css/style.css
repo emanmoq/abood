@@ -1,0 +1,115 @@
+body{
+    background-color:#eee
+}
+.sideBox{
+    border-radius: 5px;
+    background-color:#fff;
+    margin-bottom:20px;
+}
+ul{
+    list-style: none;
+}
+.bodyContent{
+    padding-top:50px;
+}
+a:hover{
+text-decoration: none;
+color:black;
+}
+.sideBox ul{
+    padding:10px;
+}
+.sideBox ul li{
+    padding:10px;
+    list-style: none;
+    border-bottom:1px solid #eee
+}
+.sideBox ul li:last-child{
+    border-bottom: 0;
+}
+.sideBox ul li a{
+    color:black;
+}
+.box-Title{
+    width:100%;
+background-color: #00acee;
+padding:20px;
+color:white;
+font-size:14px;
+}
+.title{
+    text-transform: capitalize;
+    color:black;
+    font-size:16px;
+}
+.newsBox{
+    width:100%;
+    background-color:white;
+    border-radius:10px;
+    padding:20px;
+    margin-top:20px;
+}
+.NewsTime i{
+color:#00acee;
+}
+.newsTitle{
+    font-size:16px;
+    font-weight: bold;
+}
+.newsTitle a{
+    color:black;
+}
+.NewsTime ,.newsDate{
+    font-size:14px;
+}
+.newsDetails{
+    font-size:14px;
+    color:#9d9d9d;
+    margin-top:10px;
+}
+.FNews{
+    margin:10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom:10px;
+}
+img{
+    width:100%;
+}
+.FeatureNews{
+    background-color:white;
+    border-radius: 10px;
+}
+.FNews .newsTitle{
+font-size: 15px;
+font-weight: 500;
+}
+.profileImg{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;;
+}
+.profileImg img{
+    border-radius: 50%;
+}
+header{
+    background-color:white;
+}
+.navbar{
+    width:100%;
+}
+.profileNotification{
+    width:50%;
+}
+.Notification,.profile,.profile .profileImg,.profile h4{
+    display: inline-block;
+}
+.profile h4{
+font-size: 16px;
+}
+.Notification{
+    margin-right:10px;
+}
+.nav-link i{
+    font-size:15px;
+    margin-right:5px;
+}
