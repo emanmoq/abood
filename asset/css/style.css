@@ -174,3 +174,6 @@ footer{
 .footerList li a{
     color:black;  
 }
+.fs-upload-target{
+    font-size:14px;
+}
