@@ -2,7 +2,7 @@ body{
     background-color:#f7f7f7
 }
 .sideBox{
-    border-radius: 5px;
+    border-radius: 10px;
     background-color:#fff;
     margin-bottom:20px;
 }
@@ -35,10 +35,15 @@ color:black;
 .box-Title{
     width:100%;
 background-color: #1398d7;
-padding:25px;
+padding:20px;
 color:white;
 font-size:14px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
+
+  
+
 .title{
     text-transform: capitalize;
     color:black;
@@ -239,4 +244,5 @@ margin-bottom:20px;
 }
 .singleNews{
     margin-bottom:50px;
+    margin-top:0;
 }
