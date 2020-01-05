@@ -11,6 +11,8 @@ ul{
 }
 .bodyContent{
     padding:50px;
+    margin-top:70px;
+    margin-bottom:100px;
 }
 a:hover{
 text-decoration: none;
@@ -22,7 +24,7 @@ color:black;
 .sideBox ul li{
     padding:10px;
     list-style: none;
-    border-bottom:1px solid #eee
+    border-bottom:1px solid #f1f1f1
 }
 .sideBox ul li:last-child{
     border-bottom: 0;
@@ -32,8 +34,8 @@ color:black;
 }
 .box-Title{
     width:100%;
-background-color: #00acee;
-padding:20px;
+background-color: #1398d7;
+padding:25px;
 color:white;
 font-size:14px;
 }
@@ -63,21 +65,21 @@ padding:0 20px;
     margin:10px 0;
 }
 .NewsTime i{
-color:#00acee;
+color:#1398d7;
 }
 .newsTitle{
-    font-size:16px;
+    font-size:18px;
     font-weight: bold;
 }
 .newsTitle a{
     color:black;
 }
 .NewsTime ,.newsDate{
-    font-size:14px;
+    font-size:17px;
 }
 .newsDetails{
     font-size:14px;
-    color:#9d9d9d;
+    color:#b8b8b8;
     margin-top:10px;
 }
 .FNews{
@@ -130,9 +132,13 @@ font-size: 14px;
     margin-right:5px;
 }
 .addNew{
+    margin:80px 0;
     background-color:white;
     padding:30px 100px;
     border-radius: 10px;
+}
+.addNew.about{
+    padding:30px;
 }
 .newTitle {
     font-size:32px;
@@ -225,4 +231,12 @@ footer{
     font-size:14px;
     color:#a3a3a3;
     margin-bottom:30px
+}
+.relatedNews{
+font-size:22px;
+color:black;
+margin-bottom:20px;
+}
+.singleNews{
+    margin-bottom:50px;
 }
