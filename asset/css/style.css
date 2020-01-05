@@ -122,18 +122,26 @@ font-size: 16px;
 .Notification{
     margin-right:10px;
 }
+.nav-link{
+    font-size:16px;
+}
 .nav-link i{
     font-size:15px;
     margin-right:5px;
 }
 .addNew{
     background-color:white;
-    padding:20px 100px;
+    padding:30px 100px;
     border-radius: 10px;
+}
+.newTitle {
+    font-size:32px;
+    margin-bottom:30px;
 }
 .form-group{
     width:47%;
     display: inline-block;
+    margin-bottom:25px;
   
 }.margin-Right{
     
@@ -141,18 +149,28 @@ font-size: 16px;
 }
 .form-control{
     border-radius: 25px;
+    background-color:#f5f6f8;
+    height:45px;
+}
+.form-group label{
+    font-size:14px;;
+    color:#c5c9d5;
+    margin:0;
+    text-transform: capitalize;
+    margin:5px 20px;
 }
 .form-group.full{
     width:100%;
 }
 textarea{
     resize: none;
+  
 }
 .submitBtn{
     width:100%;
     background-color: #00acee;
     border-radius: 25px;
-    color:white;
+    color:white !important;
 }
 .captcha{
     width:80%;
@@ -167,13 +185,27 @@ border-radius: 25px;
 }
 footer{
     background-color:white;
+    padding:20px 0;
 }
 .footerList li{
     display: inline-block;
 }
 .footerList li a{
     color:black;  
+    font-size:14px;
 }
 .fs-upload-target{
+    font-size:14px;
+}
+.footerList li{
+    padding:0  12px;
+    border-right:1px solid black;
+    margin:5px;
+}
+.footerList li:last-child{
+    border-right:0;
+}
+.copyRight{
+    color:#9d9d9d;
     font-size:14px;
 }
